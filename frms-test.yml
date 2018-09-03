@@ -1,0 +1,17 @@
+resttemplate:
+  conectTimeout: 2000
+  readTimeout: 20000
+  proxy:
+    host:
+    port: 0
+
+
+# feign客户端连接配置，毫秒数
+feign:
+  connectTimeoutMillis: 100000
+  readTimeoutMillis: 200000
+
+#Async 异步线程设定
+asyncthread:
+  corePoolSize: 200
+  maxPoolSize: 200
